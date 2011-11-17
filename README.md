@@ -4,7 +4,7 @@ This is the example codes for the post [node.js basics](http://dreamerslab.com/b
 
 > To run all the example codes please follow the instruction below
 
-### require and exports
+### `require` and `exports`
 
     $ cd /path/to/the/source/require_and_exports
     $ node run.js
