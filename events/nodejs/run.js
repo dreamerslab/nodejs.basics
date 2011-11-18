@@ -1,7 +1,7 @@
-var event, dos;
+var event, todos;
 
 event = require( './event' );
-dos   = [ './do_d', './do_c', './do_b', './do_a' ];
+todos = [ './do_d', './do_c', './do_b', './do_a' ];
 
 event.on( 'do_a', function(){
   console.log( 'i can do something to do_a out side of do_a' );
@@ -19,6 +19,6 @@ event.on( 'do_d', function(){
   console.log( 'i can do something to do_d out side of do_d' );
 });
 
-dos.forEach( function( name ){
+todos.forEach( function( name ){
   require( name )();
 });
